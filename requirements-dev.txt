@@ -1,0 +1,12 @@
+# lint
+flake8==3.9.1
+black==21.4b2
+flake8-docstrings==1.6.0
+flake8-quotes==3.2.0
+
+# test
+pytest==6.2.3
+pytest-cov==2.11.1
+
+# notebook
+ipykernel==5.5.3
