@@ -11,5 +11,7 @@ services:
       - ${USERPROFILE-~}/.ssh:/home/vscode/.ssh
     image: bolt_sample-image
     container_name: bolt_sample-container
+    ports:
+      - "3000"
     tty: true
     env_file: .env # shellスクリプト内でも環境変数として使用するため
